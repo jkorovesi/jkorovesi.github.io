@@ -1,0 +1,143 @@
+/** General **/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1, h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 72px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+section{
+    position: relative;
+}
+/** Header section **/
+
+header {
+    background-color: #0f0f0f;
+    display: block;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+header a {
+    color: white;
+}
+
+nav {
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px;
+}
+
+/** Main Section **/
+main{
+    padding-top: 25px;
+}
+
+/** About Me Section **/
+#about-me{
+    height: 460px;
+}
+
+#about-me p{
+    margin-top: 10px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    right: 40%;
+}
+
+#about-me .portrait{
+    position: absolute;
+    top: 120px;
+    right: 50px;
+}
+
+/** Resume section **/
+#resume{
+    padding-top: 10px;
+    background-color: #0f0f0f;
+    color: #efefef;
+    height: 340px;
+    box-sizing: border-box;
+}
+
+#resume p{
+    position:absolute;
+    left: 0px;
+    top: 160px;
+    right: 50%;
+}
+
+#resume .btn-resume{
+    width:365px;
+    height: 105px;
+    background-color: #632b6c;
+    color: white;
+    text-align: center;
+    font-weight:bold;
+    line-height: 50px;
+    position:absolute;
+    right: 0px;
+    top: 160px;
+}
+
+/** Demos Section **/
+#demos{
+    padding-top: 20px;
+    box-sizing: border-box;
+    height: 850px;
+}
+.demos-row{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#demos .demo-entry{
+    display: inline-block;
+    width: 260px;
+    text-align: center;
+}
+#demos .demo-entry a{
+    color:#0f0f0f;
+}
+
+
+/** Footer section **/
+footer{
+    background-color:#0F0F0F;
+    color: #dfdfdf;
+    font-size: 16px;
+    height: 28px;
+    text-align:center;
+    line-height: 28px;
+}
+footer a{
+    color:#afafaf;
+}
