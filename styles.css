@@ -63,6 +63,7 @@ main{
 /** About Me Section **/
 #about-me{
     height: 460px;
+    
 }
 
 #about-me p{
@@ -71,6 +72,10 @@ main{
     top: 120px;
     left: 0px;
     right: 40%;
+    background-color: #C777F6 ;
+    padding: 10px ;
+    border: 1px solid #7901BF ;
+    line-height: 30px;
 }
 
 #about-me .portrait{
